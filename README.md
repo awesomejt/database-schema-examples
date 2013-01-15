@@ -4,6 +4,22 @@ Database Schema Examples
 This project is an open-source (Apache License 2.0) collection of data models and SQL scripts for creating sample database
 schemas. This project was started after a bit of searching for an existing project without much success.
 
+**Project Benefits**
++ SQL scripts for creating schemas and sample data for testing or proof-of-concept applications
++ A way to teach developers how to write DDL/SQL
++ A database schema design starting point
+
+**Database examples should contain the following:**
++ README file to discribe the purpose of the example, how to use the SQL scripts, and anything else required.
++ ER diagram or other database model PNG image
++ ER diagram source file (optional)
++ Schema creation SQL (DDL) scripts
++ Sample data insertion scripts (optional)
++ Schema removal scripts
++ Database system specific scripts (create database, schema, users/permissions, constraints, etc)
+
+
+
 Getting Started
 ---------------
 
@@ -38,3 +54,10 @@ a last resort, a completely database specific approach may be used. Either way, 
 with each schema example.
 
 Name database-specific files with a reasonable prefix. Example: *mysql_schema_create_alter.sql*.
+
+### Database Models
+
+Creating database models (Entity-Relationship (ER) Diagrams) are useful when provided. Please use a freely available
+tool for creating a saving ER diagram files. Also, always export the ER diagram as a PNG image file so others can 
+view the diagram without using a specific tool.
+
