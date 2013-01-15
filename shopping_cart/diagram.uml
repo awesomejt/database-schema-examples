@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>f0c20ecd-c44d-4144-b09b-e8d6189fded4.schema:STORE.PUBLIC</OriginalElement>
+  <nodes>
+    <node x="-152.0" y="-12.0">f0c20ecd-c44d-4144-b09b-e8d6189fded4.table:STORE.PUBLIC.CATEGORY</node>
+    <node x="211.0" y="219.0">f0c20ecd-c44d-4144-b09b-e8d6189fded4.table:STORE.PUBLIC.CART</node>
+    <node x="-193.0" y="164.0">f0c20ecd-c44d-4144-b09b-e8d6189fded4.table:STORE.PUBLIC.PRODUCT</node>
+    <node x="191.0" y="0.0">f0c20ecd-c44d-4144-b09b-e8d6189fded4.table:STORE.PUBLIC.CUSTOMER</node>
+    <node x="4.0" y="432.0">f0c20ecd-c44d-4144-b09b-e8d6189fded4.table:STORE.PUBLIC.CART_ITEM</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="f0c20ecd-c44d-4144-b09b-e8d6189fded4.table:STORE.PUBLIC.CART_ITEM" target="f0c20ecd-c44d-4144-b09b-e8d6189fded4.table:STORE.PUBLIC.PRODUCT">
+      <point x="-42.0" y="-54.5" />
+      <point x="47.0" y="374.0" />
+      <point x="-94.5" y="374.0" />
+      <point x="0.0" y="84.5" />
+    </edge>
+    <edge source="f0c20ecd-c44d-4144-b09b-e8d6189fded4.table:STORE.PUBLIC.PRODUCT" target="f0c20ecd-c44d-4144-b09b-e8d6189fded4.table:STORE.PUBLIC.CATEGORY">
+      <point x="0.0" y="-84.5" />
+      <point x="0.0" y="44.5" />
+    </edge>
+    <edge source="f0c20ecd-c44d-4144-b09b-e8d6189fded4.table:STORE.PUBLIC.CART" target="f0c20ecd-c44d-4144-b09b-e8d6189fded4.table:STORE.PUBLIC.CUSTOMER">
+      <point x="0.0" y="-44.5" />
+      <point x="0.0" y="64.5" />
+    </edge>
+    <edge source="f0c20ecd-c44d-4144-b09b-e8d6189fded4.table:STORE.PUBLIC.CART_ITEM" target="f0c20ecd-c44d-4144-b09b-e8d6189fded4.table:STORE.PUBLIC.CART">
+      <point x="42.0" y="-54.5" />
+      <point x="133.0" y="375.0" />
+      <point x="266.5" y="373.0" />
+      <point x="0.0" y="44.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="74.5" y="267.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
